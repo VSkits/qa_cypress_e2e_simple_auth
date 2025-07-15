@@ -40,7 +40,7 @@ describe('Sign In page', () => {
       .click();
     cy.get('h2')
       .contains('Secure Area');
-    cy.get('i')
+    cy.get('a')
       .contains('Logout')
       .click();
     cy.get('h2')
